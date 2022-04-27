@@ -135,6 +135,7 @@ h4 {
 .item-gallery {
     max-width: 32%;
     position: relative;
+    flex: 1 2;
 }
 
 .img-Gallery {
