@@ -128,7 +128,8 @@ h4 {
 .gallery {
     display: flex;
     gap: 32px;
-    flex-wrap: wrap;
+    width: auto;
+    height: auto;
     margin: 80px 80px 70px;
 }
 
