@@ -10,7 +10,6 @@
 }
 
 body {
-    font-size: 100%;
     background: linear-gradient(68.15deg, #000 16.62%, #4e4e4e 85.61%);
 }
 
@@ -39,7 +38,6 @@ ul {
 }
 
 #container1 {
-    width: 100%;
     padding: 250px 0px 100px 150px;
     display: flex;
     justify-content: space-between;
@@ -71,12 +69,11 @@ h2 {
 }
 
 .ctt-img {
-    margin: 70px 0;
+    padding: 70px 0 140px 0;
     justify-content: center;
     gap: 40px;
     text-align: center;
     display: flex;
-    font-size: 15px;
 }
 
 #s-about {
@@ -87,13 +84,13 @@ h2 {
 h3 {
     text-align: center;
     font-size: 36px;
+    padding: 20px 0;
 }
 
 #about-me {
     font-size: 24px;
-    padding-top: 9px;
     text-align: justify;
-    margin: 10px 20% 0;
+    margin: 30px 20%;
     text-indent: 25px;
 
 }
@@ -123,13 +120,12 @@ img.img-Gallery:hover{
 h4 {
     text-align: center;
     font-size: 36px;
+    padding: 20px 0;
 }
 
 .gallery {
     display: flex;
     gap: 32px;
-    width: auto;
-    height: auto;
     margin: 80px 80px 70px;
 }
 
@@ -163,12 +159,9 @@ h4 {
 /* Rodapé */
 
 footer{
-    height: 100px;
     background-color: #000;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
 }
 
 
@@ -179,5 +172,14 @@ footer{
     text-align: center;
     background-color: #ff0000;
     display: block;
-    margin: 20px auto;
+    margin: 20px;
+    border: none;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+button:active{
+    opacity: .4;
 }
